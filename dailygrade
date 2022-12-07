@@ -1,0 +1,25 @@
+if(
+  prop("Performance") > 1,
+  "S+",
+  if(
+    prop("Performance") >= .97,
+    "S",
+    if(
+      prop("Performance") >= .9,
+      "A",
+      if(
+        prop("Performance") >= .8,
+        "B",
+        if(
+          prop("Performance") >= .7,
+          "C",
+          if(
+            prop("Performance") >= .6,
+            "D",
+            "F"
+          )
+        )
+      )
+    )
+  )
+)
