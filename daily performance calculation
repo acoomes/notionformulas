@@ -1,0 +1,38 @@
+round(
+  divide(
+    add(
+      add(
+        add(
+          add(
+            toNumber(
+              prop("Viz Today")
+            ),
+            toNumber(
+              prop("Viz Tomorrow")
+            )
+          ),
+          add(
+            toNumber(
+              prop("MbM Updates")
+            ),
+            toNumber(
+              prop("Spanish")
+            )
+          )
+        ),
+        add(
+          toNumber(
+            prop("Workout")
+          ),
+          toNumber(
+            prop("Trade Options")
+          )
+        )
+      ),
+      (prop("20 Emails")/20)
+    ),
+    7
+  )
+  *10000
+)
+/10000
